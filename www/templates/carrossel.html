@@ -1,0 +1,22 @@
+<div class="container-slider-principal">
+    <div class="container-slider-conteudo">
+        <div class="slider-prev">
+            <img ng-src="{{prev}}" alt="">
+        </div>
+        <div class="container-slider">
+            <ion-slides  options="options" slider="data.slider">
+                <ion-slide-page ng-repeat="img in imgs track by $index">
+                <div class="box blue">
+                <img ng-src=" {{img}}" alt="">
+                </div>
+                </ion-slide-page>
+            </ion-slides>
+            <div class="btn-rodape">
+                 <button class="button  button-block" ng-click="trocarPts()">TROQUE</button>
+            </div>
+        </div>
+        <div class="slider-next">
+            <img ng-src="{{next}}" alt="">
+        </div>
+    </div>
+</div>  

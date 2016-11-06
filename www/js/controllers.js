@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['morphCarousel','carrossel'])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
@@ -40,7 +40,6 @@ angular.module('starter.controllers', [])
     }, 1000);
   };
 })
-//cordova plugin add cordova-plugin-facebook4 --save --variable APP_ID="1277719048934673" --variable APP_NAME="Bluehack"
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
@@ -52,11 +51,17 @@ angular.module('starter.controllers', [])
   
   $scope.loginFacebook = function(){
     var permissoes = [
-        'public_profile',
-        'user_posts',
-        'user_relationship_details',
-        'user_about_me',
-        'user_birthday'
+        "email",
+        "user_likes",
+        "user_location",
+        "user_actions.books",
+        "user_actions.fitness",
+        "user_relationships",
+        "public_profile",
+        "user_posts",
+        "user_relationship_details",
+        "user_about_me",
+        "user_birthday"
     ];
     facebookConnectPlugin.login(permissoes, function(data){
       console.log(data);
@@ -67,4 +72,10 @@ angular.module('starter.controllers', [])
     
   };
   console.log('Controller login');
-});
+})
+.controller('HomeCtrl',function($scope){
+  console.log("Home controller");
+
+
+
+})

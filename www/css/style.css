@@ -1,1 +1,163 @@
 /* Empty. Add your own CSS if you like */
+.logotipo{
+    display: block;
+     width: 200px;
+     height: 210px;
+     margin:0 auto;
+}
+
+.button.btn-facebook{
+    background-color: #AB47BC;
+    width: 60%;
+    border-radius: 5px;
+    margin: 25% auto;
+}
+.button.btn-facebook.activated{
+    background-color: #9C27B0;
+    width: 60%;
+    border-radius: 5px;
+    margin: 25% auto;
+
+}
+.container-slider-conteudo{
+    display: block;
+    float: none;
+    margin-bottom:20px; 
+}
+.container-slider-principal{
+    display: block;
+    margin-left: 15%;
+}
+
+.container-slider-principal .slider-prev{
+    float: left;
+    background-color: #AB47BC;
+    min-height: 70px;
+    min-width: 50px;
+    margin-top:20px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.container-slider-principal .slider-prev img{
+    width: 70px;
+    height: 90px;
+}
+.container-slider-principal .slider-next img{
+    width: 70px;
+    height: 90px;
+}
+
+.container-slider-principal .slider-next{
+    float: left;
+    background-color: #AB47BC;
+    min-height: 70px;
+    min-width: 50px;
+    margin-top:20px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.container-slider{
+    display: block;
+    background-color: #AB47BC;
+    padding:5px;
+    border-radius:5px;
+    height:120px;
+    width: 80px;
+    margin: 0 auto;
+    float: left;
+}
+.container-slider img{
+    border-radius: 5px;
+}
+.saldacao-home{
+    display: block;
+    background-color: #AB47BC;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+.saldacao-home h2{
+    font-size:12px;
+    color:#fab31f;
+    padding:2px;
+    text-align: center;
+    margin: 0;
+}
+.saldacao-home p{
+    font-size: 10px;
+    padding: 2px;
+    text-align: center;
+    color:#fff;
+}
+.container-troca{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.container-troca span.descricao{
+    display: block;
+    background-color: #AB47BC;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 5px;
+
+}
+.container-troca p{
+    color:#fff;
+    font-size:10px;
+    text-align:center;
+    padding:8px;
+}
+.container-troca .item-troca{
+    background-color: #AB47BC;
+    width: 80%;
+    margin: 0 auto;
+    border-radius:5px;
+ }
+.container-troca img{
+    width: 120px;
+    height: 120px;
+    margin-left: 18%; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container-troca .valor-item{
+    padding: 0;
+    color:#fff;
+    font-size: 10px;
+}
+.button.btn-trocar{
+    margin: 0;
+    padding:0;
+    background-color:#fab31f;
+    border-radius:0px;
+}
+.button.btn-troque{
+    margin: 0;
+    padding:0;
+    background-color:#fab31f;
+    border-radius:0px;
+}
+.btn-rodape .button{
+    width: 100%;
+    font-size: 11px;
+    background-color: #fab31f;
+    top:-60px;
+}
+hr{
+    position: relative;
+    width: 95%;
+    margin-top: 20px;
+    display: block;
+    clear: both;
+}
+p.center{
+    text-align: center;
+    clear: both;
+}
+.swiper-pagination.swiper-pagination-clickable{
+    display: none;
+}
+
